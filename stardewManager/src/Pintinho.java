@@ -16,4 +16,10 @@ public class Pintinho extends GalinhaMae {
     public void emitirSom() {
         System.out.println("O pintinho faz: Piupiu.");
     }
+
+    @Override
+    public void nome() {
+        System.out.println("O nome do pintinho é " + getNome() + " e ele tem " + getMeses() + " mês de vida e " + getIdade() + " de idade. ");
+        System.out.println("-------------------------");
+    }
 }

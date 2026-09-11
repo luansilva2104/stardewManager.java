@@ -22,4 +22,10 @@ public class GalinhaMae implements Animal {
     public void emitirSom() {
         System.out.println("A galinha faz: cocoricó!!!!!");
     }
+
+    @Override
+    public void nome() {
+        System.out.println("O nome da galinha é " + getNome() + " e ela tem " + getIdade() + " anos ");
+        System.out.println("-------------------------");
+    }
 }

@@ -17,4 +17,10 @@ public class Bezerro extends VacaMae {
     public void emitirSom() {
         System.out.println("O bezerro faz: muuuu!");
     }
+
+    @Override
+    public void nome() {
+        System.out.println("O nome do bezerro é " + getNome() + " e ele tem " + getMeses() + " mês e " + getidade() + " anos de vida.");
+        System.out.println("-------------------------");
+    }
 }
